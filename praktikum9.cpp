@@ -22,3 +22,9 @@ public:
         cout << "Masukkan sisi 2 Layang-Layang: ";
         cin >> s2;
     }
+
+    double luas() {
+        return 0.5 * d1 * d2;
+    }
+
+    double keliling() {
