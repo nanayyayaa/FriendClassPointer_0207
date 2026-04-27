@@ -44,3 +44,13 @@ private:
     double d1;
     double d2; 
     double sisi; 
+
+public:
+    void input() {
+        cout << "Masukkan diagonal 1 Belah Ketupat: ";
+        cin >> d1;
+        cout << "Masukkan diagonal 2 Belah Ketupat: ";
+        cin >> d2;
+        cout << "Masukkan sisi Belah Ketupat: ";
+        cin >> sisi;
+    }
