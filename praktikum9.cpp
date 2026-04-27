@@ -67,3 +67,7 @@ public:
         cout << "Luas Belah Ketupat: " << luas() << endl;
     }
 };
+
+int main() {
+    LayangLayang ll;
+    BelahKetupat bk;
