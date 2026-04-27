@@ -54,3 +54,11 @@ public:
         cout << "Masukkan sisi Belah Ketupat: ";
         cin >> sisi;
     }
+
+    double luas() {
+        return 0.5 * d1 * d2;
+    }
+
+    double keliling(LayangLayang &ll) {
+        return 2 * (ll.s1 + ll.s2);
+    }
