@@ -71,3 +71,8 @@ public:
 int main() {
     LayangLayang ll;
     BelahKetupat bk;
+
+    cout << "--- Input Layang-Layang ---" << endl;
+    ll.input();
+    cout << "--- Input Belah Ketupat ---" << endl;
+    bk.input();
