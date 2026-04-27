@@ -76,3 +76,11 @@ int main() {
     ll.input();
     cout << "--- Input Belah Ketupat ---" << endl;
     bk.input();
+
+    cout << "\n--- Hasil ---" << endl;
+    ll.output();
+    cout << "Keliling Layang-Layang yang diakses oleh Belah Ketupat: " << bk.keliling(ll) << endl;
+    bk.output();
+
+    return 0;
+}
