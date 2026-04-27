@@ -62,3 +62,8 @@ public:
     double keliling(LayangLayang &ll) {
         return 2 * (ll.s1 + ll.s2);
     }
+
+    void output() {
+        cout << "Luas Belah Ketupat: " << luas() << endl;
+    }
+};
